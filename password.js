@@ -1,8 +1,6 @@
 let args = process.argv.slice(2);
 
-
 oldPass = args.join();
-
 
 const obfuscate = (input) => {
   let newPass = '';
